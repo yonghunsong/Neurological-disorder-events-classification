@@ -30,4 +30,4 @@ Required arguments:
 
 ```
 
-![image](figures/Ensemble-based deep learning model for event classification.png)
+![image](figures/model.png)
