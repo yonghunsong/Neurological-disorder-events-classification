@@ -4,6 +4,7 @@
 
 
 Abstract: 
+
 Most of neurological disorders lead to throat-related sequelae such as dysphagia and dysarthria. 
 These impairments require personalized treatment and rehabilitation due to variations in the patient's anamnesis, severity of symptoms, and environmental factors. 
 However, conventional treatments were performed by medical professional in specialized clinical settings, which limits continuous monitoring of patient conditions. 
