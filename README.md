@@ -14,3 +14,6 @@ The proposed model integrates multiple deep neural networks trained in both time
 The classification accuracy of 95.96% and an area under the ROC curve (AUC) exceeding 0.99 outperform previous researches in the field of throat vibration classification. 
 Our innovative system stands as a pivotal advancement in neurotherapy, offering continuous and precise monitoring of patient conditions, thereby substantially improving the efficacy of rehabilitation strategies and paving the way for superior patient care in neurological disorders.
 
+
+
+Continue...
