@@ -17,3 +17,17 @@ Our innovative system stands as a pivotal advancement in neurotherapy, offering 
 
 
 Continue...
+
+
+```
+Required arguments:
+  --path PATH           Path to directory with input files
+
+
+  --input_filename INPUT_FILENAME
+                        Path to text file containing list of files from the
+                        input directory for processing
+
+```
+
+![image](figures/Ensemble-based deep learning model for event classification.png)
