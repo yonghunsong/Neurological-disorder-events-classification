@@ -22,6 +22,12 @@ Continue...
 
 ```
 Required arguments:
+
+각 파일들을 어떻게 해야하는지?
+어떻게 해야 사용 가능한지?
+py파일에 대한 설명을 진행한다.
+example data에 대한 것도 제시함.
+
   --path PATH           Path to directory with input files
 
 
