@@ -17,7 +17,8 @@ Recording Data
 * Neurological symtoms: coughing, spekaing, swallowing, and throat clearing
 * Subjects: 16 Korean (M: 11, F: 5), 2 American (M: 1, F: 1), 5 France (M: 2, F: 3), 6 German (M: 5, F: 1), 3 Spanish (M: 1, F: 2)
 * Using soft skin-attachable throat vibration sensor (SVS)
-* At Pohang University of Science and Technology (POSTECH) in South Korea and cereneo Foundation in Switzerland. 
+* At Pohang University of Science and Technology (POSTECH) in South Korea and cereneo Foundation in Switzerland.
+* Data cannot be shared due to security concerns.
 
 
 Preprocessing
