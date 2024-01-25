@@ -1,40 +1,45 @@
 # Neurological disorder events classification
 
-## Classification model used in “Highly accurate multi-domain deep ensemble model to detect neurological disorder symptoms with soft skin-attachable throat vibration sensor” reported in npj Digital Medicine.
+
+This project includes classification model used in “Highly accurate multi-domain deep ensemble model to detect neurological disorder symptoms with soft skin-attachable throat vibration sensor” reported in npj Digital Medicine.
+
+Citable paper is coming soon.
+
+    Authors: Yonghun Song, Inyeol Yun, Sandra Giovanoli, Chris Awai, and Yoonyoung Chung*
+    Contact: yhsong@postech.ac.kr
+    Institute: Department of Electrical Engineering, Pohang University of Science and Technology, 77 Cheongam-ro, Nam-gu, Pohang, Gyeongbuk, 37673, Korea and cereneo Foundation, Center for Interdisciplinary Research (CEFIR), 6354 Vitznau, Switzerland
+    
+
+Recording Data
+----------
+
+* Neurological symtoms: coughing, spekaing, swallowing, and throat clearing
+* Subjects: 16 Korean (M: 11, F: 5), 2 American (M: 1, F: 1), 5 France (M: 2, F: 3), 6 German (M: 5, F: 1), 3 Spanish (M: 1, F: 2)
+* Using soft skin-attachable throat vibration sensor (SVS)
+* At Pohang University of Science and Technology (POSTECH) in South Korea and cereneo Foundation in Switzerland. 
 
 
-Abstract: 
+Preprocessing
+----------
 
-Most of neurological disorders lead to throat-related sequelae such as dysphagia and dysarthria. 
-These impairments require personalized treatment and rehabilitation due to variations in the patient's anamnesis, severity of symptoms, and environmental factors. 
-However, conventional treatments were performed by medical professional in specialized clinical settings, which limits continuous monitoring of patient conditions. 
-In this study, we propose an innovative place-independent medical system for autonomously detecting neurological disorder symptoms through a soft skin-attachable throat vibration sensor (SVS). 
-The SVS precisely records the throat vibration with minimal interference from surrounding noise. 
-Additionally, we significantly enhance the accuracy of discerning neurological signs from throat vibrations by devising an ensemble-based deep learning model. 
-The proposed model integrates multiple deep neural networks trained in both time and frequency domains based on a stacking ensemble algorithm. 
-The classification accuracy of 95.96% and an area under the ROC curve (AUC) exceeding 0.99 outperform previous researches in the field of throat vibration classification. 
-Our innovative system stands as a pivotal advancement in neurotherapy, offering continuous and precise monitoring of patient conditions, thereby substantially improving the efficacy of rehabilitation strategies and paving the way for superior patient care in neurological disorders.
+* Normalization
+* Processing with modified 1-D Kalman filter ([<https://ieeexplore.ieee.org/abstract/document/9954780>])
+* Augmentation (flipping, moving, scaling, and noise injection)
+* Segmentation
 
 
+Dataset
+----------
 
-Continue...
-
-
-```
-Required arguments:
-
-각 파일들을 어떻게 해야하는지?
-어떻게 해야 사용 가능한지?
-py파일에 대한 설명을 진행한다.
-example data에 대한 것도 제시함.
-
-  --path PATH           Path to directory with input files
+* Training (12 subejcts): 1,984 coughing, 2,107 speaking, 2,028 swallowing, and 2,089 throat clearing
+* Test (20 subejcts): 150 coughing, 333 speaking, 161 swallowing, and 148 throat clearing
 
 
-  --input_filename INPUT_FILENAME
-                        Path to text file containing list of files from the
-                        input directory for processing
+Model
+----------
 
-```
+* Deep Neural Networks: WaveNet, ResNet50, and EfficientNet-b0 
+* Stacking Ensemble Methods: gradient boosting machine (GBM), random forest (RF), extreme gradient boosting (XGBoost), LightGBM, extra trees, adaptive boosting (AdaBoost), and support vector machine (SVM) 
+
 
 ![image](figures/model.png)
