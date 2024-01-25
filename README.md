@@ -44,3 +44,18 @@ Model
 
 
 ![image](figures/model.png)
+
+
+Python file
+----------
+
+* Data processing and utils: augmentation.npy, data_preprocessor.npy, data_utils.npy, and image_processing.npy
+
+* neural_network_models.npy: single model
+* Trainaing neural networks: Training_WaveNet.npy, Training_ResNet50.npy, Training_EfficientNet.npy
+* neural_network_models_test.npy: for test
+
+* ensemble.npy: single ensemble model
+* ensemble_models.npy: Training the ensemble model
+* ensemble_models_test.npy: for test
+
