@@ -3,6 +3,7 @@
 
 This project includes classification model used in “Highly accurate multi-domain deep ensemble model to detect neurological disorder symptoms with soft skin-attachable throat vibration sensor” reported in npj Digital Medicine.
 
+Please refer to the paper for more details.
 Citable paper is coming soon.
 
     Authors: Yonghun Song, Inyeol Yun, Sandra Giovanoli, Chris Awai, and Yoonyoung Chung*
