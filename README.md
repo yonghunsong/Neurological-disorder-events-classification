@@ -26,7 +26,7 @@ Preprocessing
 * Processing with modified 1-D Kalman filter ([<https://ieeexplore.ieee.org/abstract/document/9954780>])
 * Augmentation (flipping, moving, scaling, and noise injection)
 * Segmentation
-* Data transformation: waveform, fundamentatl frequcny (F0), spectrogram, and mel spectrogram
+* Data transformation: waveform, fundamental frequency (F0), spectrogram, and mel spectrogram
 
 
 Dataset
