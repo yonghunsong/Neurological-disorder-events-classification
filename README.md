@@ -1,20 +1,20 @@
-# Neurological disorder events classification
+# Throat-related events classification
 
 
-This project includes classification model used in “Highly accurate multi-domain deep ensemble model to detect neurological disorder symptoms with soft skin-attachable throat vibration sensor” reported in npj Digital Medicine.
+This project includes classification model used in “Highly accurate multi-domain deep ensemble model to detect throat-related events with soft skin-attachable throat vibration sensor” reported in npj Digital Medicine.
 
 Please refer to the paper for more details.
 Citable paper is coming soon.
 
     Authors: Yonghun Song, Inyeol Yun, Sandra Giovanoli, Chris Awai, and Yoonyoung Chung*
     Contact: yhsong@postech.ac.kr
-    Institute: Department of Electrical Engineering, Pohang University of Science and Technology, 77 Cheongam-ro, Nam-gu, Pohang, Gyeongbuk, 37673, Korea and cereneo Foundation, Center for Interdisciplinary Research (CEFIR), 6354 Vitznau, Switzerland
+    Institute: Department of Electrical Engineering, Pohang University of Science and Technology, 77 Cheongam-ro, Nam-gu, Pohang, Gyeongbuk, 37673, Korea and Lake Lucerne Institute (LLUI) & cereneo center, Center for Interdisciplinary Research (CEFIR), 6354 Vitznau, Switzerland
     
 
 Recording Data
 ----------
 
-* Neurological symtoms: coughing, spekaing, swallowing, and throat clearing
+* Throat-related events: coughing, spekaing, swallowing, and throat clearing
 * Subjects: 16 Korean (M: 11, F: 5), 2 American (M: 1, F: 1), 5 France (M: 2, F: 3), 6 German (M: 5, F: 1), 3 Spanish (M: 1, F: 2)
 * Using soft skin-attachable throat vibration sensor (SVS)
 * At Pohang University of Science and Technology (POSTECH) in South Korea and cereneo Foundation in Switzerland.
