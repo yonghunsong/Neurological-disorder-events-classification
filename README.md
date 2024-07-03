@@ -1,14 +1,14 @@
 # Throat-related events classification
 
 
-This project includes classification model used in “Highly accurate multi-domain deep ensemble model to detect throat-related events with soft skin-attachable throat vibration sensor” reported in npj Digital Medicine.
+This project includes classification model used in “Multi-modal deep ensemble classification system with soft skin-attachable vibration sensor for detecting multiple throat-related events” reported in npj Digital Medicine.
 
 Please refer to the paper for more details.
 Citable paper is coming soon.
 
     Authors: Yonghun Song, Inyeol Yun, Sandra Giovanoli, Chris Awai, and Yoonyoung Chung*
     Contact: yhsong@postech.ac.kr
-    Institute: Department of Electrical Engineering, Pohang University of Science and Technology, 77 Cheongam-ro, Nam-gu, Pohang, Gyeongbuk, 37673, Korea and Lake Lucerne Institute (LLUI) & cereneo center, Center for Interdisciplinary Research (CEFIR), 6354 Vitznau, Switzerland
+    Institute: Department of Electrical Engineering; Future IT Innovation Laboratory; Department of Semiconductor Engineering; Center for Semiconductor Technology Convergence, Pohang University of Science and Technology, 77 Cheongam-ro, Nam-gu, Pohang, Gyeongbuk, 37673, Korea and Lake Lucerne Institute (LLUI) & cereneo center, Center for Interdisciplinary Research (CEFIR), 6354 Vitznau, Switzerland
     
 
 Recording Data
@@ -16,9 +16,9 @@ Recording Data
 
 * Throat-related events: coughing, spekaing, swallowing, and throat clearing
 * Subjects: 16 Korean (M: 11, F: 5), 2 American (M: 1, F: 1), 5 France (M: 2, F: 3), 6 German (M: 5, F: 1), 3 Spanish (M: 1, F: 2)
-* Using soft skin-attachable throat vibration sensor (SVS)
+* Using soft skin-attachable throat vibration sensor (STVS)
 * At Pohang University of Science and Technology (POSTECH) in South Korea and cereneo Foundation in Switzerland.
-* Data cannot be shared due to security concerns.
+* Data is shared via zenodo. (link uploaded later).
 
 
 Preprocessing
