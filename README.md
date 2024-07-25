@@ -18,7 +18,7 @@ Recording Data
 * Subjects: 16 Korean (M: 11, F: 5), 2 American (M: 1, F: 1), 5 France (M: 2, F: 3), 6 German (M: 5, F: 1), 3 Spanish (M: 1, F: 2)
 * Using soft skin-attachable throat vibration sensor (STVS)
 * At Pohang University of Science and Technology (POSTECH) in South Korea and cereneo Foundation in Switzerland.
-* Data is shared via zenodo. (link uploaded later).
+* Data is shared via zenodo. (https://doi.org/10.5281/zenodo.12630148).
 
 
 Preprocessing
