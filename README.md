@@ -4,8 +4,8 @@
 This project includes classification model used in “Multimodal deep ensemble classification system with wearable vibration sensor for detecting throat-related events” reported in npj Digital Medicine.
 
 Please refer to the paper for more details.
+Song, Y., Yun, I., Giovanoli, S. et al. Multimodal deep ensemble classification system with wearable vibration sensor for detecting throat-related events. npj Digit. Med. 8, 14 (2025). [https://doi.org/10.1038/s41746-024-01417-w]
 
-    Song, Y., Yun, I., Giovanoli, S. et al. Multimodal deep ensemble classification system with wearable vibration sensor for detecting throat-related events. npj Digit. Med. 8, 14 (2025). [https://doi.org/10.1038/s41746-024-01417-w]
 
 Recording Data
 ----------
